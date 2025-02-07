@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "../components/NavBar";
- import Home from "../pages/homepage";
- import ReadingList from "../pages/ReadingList";
- import SearchManga from "../pages/Search";
+import Navbar from "../components/NavBar.jsx";
+import Home from "../pages/homepage.jsx"; // Updated import path
+import ReadingList from "../pages/ReadingList.jsx";
+import SearchManga from "../pages/Search.jsx";
 
 const App = () => {
   return (
